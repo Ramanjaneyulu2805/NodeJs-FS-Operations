@@ -23,7 +23,6 @@ fs.writeFile('Created_File_names.txt','File names:-',function(err){
 //-----------------------------------------------------------------------------------------------------------------------------
 
 
-
 //---------------------------------------------------------------------------------CODE FOR CHECKING,CREATING,STORING FILES-------------
 var filenamesarray=[];
 yargs.command({
