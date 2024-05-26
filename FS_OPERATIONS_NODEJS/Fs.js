@@ -30,7 +30,7 @@ yargs.command({
     describe:'Add a new file',
     handler:function(argv){
         const filearray=argv._;
-       
+    
         filenamesarray=[...filearray];
      
         for(let i=0;i<filearray.length;i++){
